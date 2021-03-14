@@ -1,3 +1,3 @@
 # ShareMu
 
-## A sound sharing platform built with React JS
+### A sound sharing platform built with React JS
