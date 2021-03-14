@@ -1,0 +1,26 @@
+@import "./assets/styles/colors";
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: $highlight;
+}
+
+.space_top {
+  margin-top: 2rem;
+}
+
+.no_x_pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.title.is-1 {
+  font-size: 4rem !important;
+}

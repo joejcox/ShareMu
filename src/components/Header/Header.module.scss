@@ -1,0 +1,36 @@
+@import "../../assets/styles/colors";
+
+.site_header {
+    background: $dark;
+
+    a {
+        color: white;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        font-family: 'Rum Raisin', sans-serif;
+    }
+
+    .upload_button {
+        background: $darker;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+
+        svg {
+            margin-right: .5rem;
+            font-size: 1.5rem;
+        }
+    }
+}

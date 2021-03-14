@@ -1,0 +1,20 @@
+@import "../../assets/styles/colors";
+
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+    &:hover svg {
+        color: $shadow;
+    }
+
+    &:active svg {
+        color: $highlight;
+    }
+
+    svg {
+        font-size: 3rem;
+    }
+}
